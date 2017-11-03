@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Language" content="fr">
+	
+		<meta name="language" content="fr">
+		<meta name="designer" content="Buzzing Light">  
+
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="apple-touch-icon" href="img/icon.png" />
+		<link rel="shortcut icon"    href="img/icon.png" />
+
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/font/museosans.css">
+        <link rel="stylesheet" type="text/css" href="css/theme.css">
+
+        <title>blínk Tablet Web</title>
+
+	    <script type="text/javascript" src="cordova.js"></script>
+
+		<script language="javascript" type='text/javascript' src="js/jquery.js"></script>
+    </head>
+    <body>
+		<iframe id='content' width='100%' height='100%' frameborder="0" src="http://192.168.0.6/update/Tablets/Specialpba/remote_guide/"></iframe>
+		<script language="javascript" type='text/javascript' src="js/index.js"></script>
+    </body>
+</html>

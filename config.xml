@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.buzzinglight.blinktabletweb" version="1.0.0" ios-CFBundleVersion="1.0.0" android-versionCode="1000000" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Gigapixels</name>
+    <description>
+        blínk Tablet Web permet d'afficher une page web en mode kiosque en plein écran
+    </description>
+    <author email="bonjour@buzzinglight.com" href="http://www.buzzinglight.com">
+        Buzzing Light
+    </author>
+
+	<preference name="Orientation"                       value="landscape" />
+	
+	<preference name="Fullscreen"       				 value="true" />
+	<preference name="StatusBarStyle"   				 value="lightcontent" />
+	<preference name="BackgroundColor"  				 value="0xFFFFFFFF"/>
+	<preference name="BackupWebStorage" 				 value="local"/>
+	<preference name="DisallowOverscroll"       		 value="true"/>
+	<preference name="EnableViewportScale"      		 value="false"/>
+	<preference name="StatusBarOverlaysWebView" 		 value="false" /> 
+	<preference name="StatusBarBackgroundColor" 		 value="#FFFFFF" />
+	<preference name="AllowInlineMediaPlayback" 		 value="true"/>
+	<preference name="HideKeyboardFormAccessoryBar"      value="true"/>
+	<preference name="MediaPlaybackRequiresUserAction"   value="false"/>
+	<preference name="KeyboardDisplayRequiresUserAction" value="false"/>
+	<!--
+		<preference name="Suppress3DTouch" value="true" />
+	-->
+	
+	<icon src="www/img/icons/icon.png" />
+	<platform name="ios">
+		<icon src="www/img/icons/icon29.png"  width= "29" height= "29" />
+		<icon src="www/img/icons/icon40.png"  width= "40" height= "40" />
+		<icon src="www/img/icons/icon50.png"  width= "50" height= "50" />
+		<icon src="www/img/icons/icon48.png"  width= "48" height= "48" />
+		<icon src="www/img/icons/icon57.png"  width= "57" height= "57" />
+		<icon src="www/img/icons/icon58.png"  width= "58" height= "58" />
+		<icon src="www/img/icons/icon60.png"  width= "60" height= "60" />
+		<icon src="www/img/icons/icon64.png"  width= "64" height= "64" />
+		<icon src="www/img/icons/icon72.png"  width= "72" height= "72" />
+		<icon src="www/img/icons/icon76.png"  width= "76" height= "76" />
+		<icon src="www/img/icons/icon80.png"  width= "80" height= "80" />
+		<icon src="www/img/icons/icon87.png"  width= "87" height= "87" />
+		<icon src="www/img/icons/icon100.png" width="100" height="100" />
+		<icon src="www/img/icons/icon114.png" width="114" height="114" />
+		<icon src="www/img/icons/icon120.png" width="120" height="120" />
+		<icon src="www/img/icons/icon144.png" width="144" height="144" />
+		<icon src="www/img/icons/icon152.png" width="152" height="152" />
+		<icon src="www/img/icons/icon167.png" width="167" height="167" />
+		<icon src="www/img/icons/icon180.png" width="180" height="180" />
+		<icon src="www/img/icons/icon320.png" width="320" height="320" />
+	</platform>
+	<platform name="android">
+		<icon src="www/img/icons/icon_t.png" />
+		<icon src="www/img/icons/icon_t36.png"  width= "36" height= "36" density="ldpi" />
+		<icon src="www/img/icons/icon_t48.png"  width= "48" height= "48" density="mdpi" />
+		<icon src="www/img/icons/icon_t72.png"  width= "72" height= "72" density="hdpi" />
+		<icon src="www/img/icons/icon_t96.png"  width= "96" height= "96" density="xhdpi" />
+		<icon src="www/img/icons/icon_t144.png" width="144" height="144" density="xxhdpi" />
+		<icon src="www/img/icons/icon_t192.png" width="192" height="192" density="xxxhdpi" />
+	</platform>
+	
+	<splash src="www/img/splash/splash.png" />
+	<platform name="ios">
+	    <splash src="www/img/splash/splash_320.png"   width="320" height="480"/>
+	    <splash src="www/img/splash/splash_640.png"   width="640" height="960"/>
+	    <splash src="www/img/splash/splash_640_2.png" width="640" height="1136"/>
+	    <splash src="www/img/splash/splash_750.png"   width="750" height="1334"/>
+	    <splash src="www/img/splash/splash_768.png"   width="768" height="1024"/>
+	    <splash src="www/img/splash/splash_1024.png"  width="1024" height="768"/>
+	    <splash src="www/img/splash/splash_1242.png"  width="1242" height="2208"/>
+	    <splash src="www/img/splash/splash_1536.png"  width="1536" height="2048"/>
+	    <splash src="www/img/splash/splash_2048.png"  width="2048" height="1536"/>
+	    <splash src="www/img/splash/splash_2208.png"  width="2208" height="1242"/>
+	</platform>
+	<preference name="AutoHideSplashScreen" value="true" />
+	
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="file:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+	<allow-navigation href="*" />
+</widget>

@@ -1,0 +1,134 @@
+html, body {
+	width: 			        100%;
+	height: 		        100%;
+	-webkit-touch-callout:  none;
+	-webkit-user-select:    none;
+	-khtml-user-select:     none;
+	-moz-user-select:       none;
+	-ms-user-select:        none;
+	user-select:            none;
+	font-family:	        'museo_sans100', helvetica, verdana;
+	font-size:				1.5vw;
+	line-height:			2vw;
+	background:	    		black;
+	color:				    white;
+}
+iframe, #loading {
+	position: absolute;
+	top:      0;
+	left:     0;
+	width:	  100%;
+	height:   100%;
+}
+
+
+#loading>div {
+	display: flex;
+}
+#loading>div>div {
+	margin: 		auto;
+	width:	   		80%;
+	text-align: 	center;
+	font-weight:  	100;
+}
+#loading>div>div.android {
+	height:	90%;
+}
+
+
+
+@media all and (orientation: portrait) {
+	#loading1 {
+		font-size:		8.5vw;
+		line-height:	8.5vw;
+		margin-bottom:	8vw;
+	}
+	#loading2 {
+		font-size:		3.5vw;
+		line-height:	4vw;
+	}
+	#ipChoice input[type=url], #ipChoice input[type=text] {
+		font-size:		4.3vw;
+		margin-top:		8vw;
+		padding:		1.5vw;
+	}
+	#ipChoiceOr {
+		top: 			-0.8vw;
+		left:			0.2vw;
+	}
+	#ipScan {
+		cursor:			pointer;
+		height:			8vw;
+		vertical-align: -2.4vw;
+	}
+	.button {
+		top:			3.5vw;
+		padding:		2vw 2.2vw 2vw 2.2vw;
+	}	
+}
+@media all and (orientation: landscape) {
+	#loading1 {
+		font-size:		5vw;
+		line-height:	5vw;
+		margin-bottom:	2.5vw;
+	}
+	#loading2 {
+		font-size:		1.5vw;
+		line-height:	1.7vw;
+	}
+	#ipChoice input[type=url], #ipChoice input[type=text] {
+		font-size:		2.3vw;
+		margin-top:		2vw;
+		padding:		0.8vw;
+	}
+	#ipChoiceOr {
+		top: 			-0.4vw;
+		left:			0.2vW;
+	}
+	#ipScan {
+		cursor:			pointer;
+		height:			5.2vw;
+		vertical-align: -1.75vw;
+	}
+	.button {
+		top:			0.2vw;
+		padding:		1vw 1.2vw 1vw 1.2vw;
+	}
+}
+
+
+
+#loading1 {
+	text-transform:	uppercase;
+}
+
+.button {
+	line-height:	6.5vw;
+	border:			1px solid white;
+	border-radius:	5vw;
+	cursor:			pointer;
+	position:		relative;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+.button:hover {
+	background:		white;
+	color:			black;
+	cursor:			pointer;
+}
+
+
+#ipChoice {
+	display:	none;
+}
+#ipChoiceOr {
+	position:	relative;
+	opacity:	0.8;
+}
+#ipChoice input[type=url], #ipChoice input[type=text] {
+	background-color:	rgba(255, 255, 255, 0.3);
+	border:				none;
+	font-family:	    'museo_sans100', helvetica, verdana;
+	text-align:			center;
+	color:				white;
+	width:				80%;
+}
