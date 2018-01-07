@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "155808962242",
+    "project_id": "firebase-blink-tablet-web"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155808962242:android:f003dd122762ffac",
+        "android_client_info": {
+          "package_name": "com.buzzinglight.blinktabletweb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155808962242-2b0msge7fa2flesqv0jse0l0n0dtu1m4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiJgAxoUq8w_k5vG-t_rVNIx0Z8qeolcc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-1526504-2"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
