@@ -1,4 +1,8 @@
 .DS_Store
 *.apk
-platforms/android/*
-platforms/ios/*
+node_modules/*
+hooks/*
+plugins/*
+platforms/*
+package-lock.json
+package.json
